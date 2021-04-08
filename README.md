@@ -7,10 +7,12 @@ This repository contains filles which can be used to control Robots velocity bas
 ## To run the project :
 ### open terminal
 ##### 1) ```cd ~/catkin_ws/src ```
-##### 2) ```git clone https://github.com/hariharan20/Hand_free_module```
+##### 2) ```git clone https://github.com/hariharan20/cam_ctl```
 ##### 3) ```cd .. & catkin_make ```
 ##### 4) ```roscore```
-##### 5) ```rosrun Hand_free_module sent_go.py ```
+##### 5) ```rosrun cam_ctl cam_ctl.py ```
+### open new terminal
+##### 6) ```rosrun cam_ctl cam_node.py ``
 
 ## The Node graph :
 ![Image of Node graph](https://github.com/hariharan20/Hand_free_module/blob/main/src/images/rosgraph.png)
