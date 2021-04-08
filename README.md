@@ -12,7 +12,7 @@ This repository contains filles which can be used to control Robots velocity bas
 ##### 4) ```roscore```
 ##### 5) ```rosrun cam_ctl cam_ctl.py ```
 ### open new terminal
-##### 6) ```rosrun cam_ctl cam_node.py ``
+##### 6) ```rosrun cam_ctl cam_node.py ```
 
 ## The Node graph :
 ![Image of Node graph](https://github.com/hariharan20/Hand_free_module/blob/main/src/images/rosgraph.png)
